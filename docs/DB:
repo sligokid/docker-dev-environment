@@ -1,0 +1,34 @@
+DB
+	
+
+Build Infra:
+	Remove the cygwin dependency, this is a hack and is not necessary if the tooling was standardised see below.
+	Remove the arbitrary db generation scripts and ssh based scripting, This is a maintenance headache that is not necessary with tools like flyway / liquibase.
+	Allow developers to install local dbs on their PC's, sharing dbs is asking for trouble.
+	Invest some time in leveraging docker to  
+
+Servers:
+	Setup seperate dev, uat and integration hosts for your applications.
+		dev -> code is compiled, built and tested, war is published to nexus. 						(several times daily)
+		uat -> war is downloaded from nexus and deployed to all supported Webservers for QA testing (At the end of each sprint only).
+		integration -> This is the stable reupdated only once per release cycle 				
+	Install the JDK on dev hosts only, code should not be compiled on 
+	The linux dev servers 
+	Remove all the arbitrary hacked together build scripts in favor of standard build tools.
+		I mean remove all the sshing over to db hosts and build hosts, this is a massive security hole 
+
+
+Move to Git and use git workflow
+
+Remove the LogMethodEntry / LogMethodExit timing methods and replace it with a clean Aspect @Timing implementation
+ie. https://dzone.com/articles/implementing-aop-with-spring-boot-and-aspectj?utm_source=Top%205&utm_medium=email&utm_campaign=Top%205%202018-02-16
+
+
+
+https://dzone.com/articles/make-use-of-docker-with-jmeter?edition=362106&utm_source=Zone%20Newsletter&utm_medium=email&utm_campaign=performance%202018-02-16
+
+ Docker virtualizes the network infrastructure, enabling developers to virtually handle everything from source to production.
+ Docker is an open-source platform with the goal of simplifying and optimizing the software lifecycle. Docker provides virtualization services that ease the replication of the working environment. Moreover, it grants deployment solutions with modular and scalable services. Finally, every virtualized service is isolated from other unrelated services on other containers or on the host machine, to ensure portability across host machines and the network.
+
+
+Docker enables developers to focus on process and methodologies instead of wasting time on handling products and their prerequisites. This is done by installing and setting up everything developers need on the machine, instead of them having to do it themselves.
