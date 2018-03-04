@@ -1,0 +1,27 @@
+Dowload the DB2 image, install it and run the DB2 container. (this time launch a shell inside it)
+ #docker run -it -p 50000:50000 -e DB2INST1_PASSWORD=db2inst1-pwd -e LICENSE=accept ibmcom/db2express-c:latest bash
+  docker run --name db-db2 -d -it -p 50000:50000 -e DB2INST1_PASSWORD=db2inst1-pwd -e LICENSE=accept ibmcom/db2express-c:latest bash
+
+Connect to the container 
+  docker exec -it db-db2 bash
+
+Inside the container switch user to dbuser
+  su - db2inst1
+
+Start the DB2 server
+  [db2inst1@08b5ef724dcc ~]$ db2start
+
+Create the sample db
+  [db2inst1@08b5ef724dcc ~]$ db2sampl 
+
+Connect to the sample db and list the version
+   [db2inst1@08b5ef724dcc ~]$ db2 connect to sample
+
+====== - =========
+Stop the container
+  297  docker stop db-db2
+
+Cleanup
+  269  docker rm $(docker ps -a -q)
+
+https://hub.docker.com/r/ibmcom/db2express-c/

@@ -1,0 +1,500 @@
+    9  ls -ltr
+   10  cp ethereumj-core/src/main/resources/ethereumj.conf ethereumj-core/src/main/resources/user.conf
+   11  ./gradlew clean shadowJar
+   12  ./gradlew run -PmainClass=org.ethereum.samples.BasicSample
+   13  ls -ltr
+   14  ps
+   15  jps
+   16  bash --login '/Applications/Docker/Docker Quickstart Terminal.app/Contents/Resources/Scripts/start.sh'
+   17  docker ps
+   18  docker ps
+   19  docker ps
+   20  pwd
+   21  ls -ltr
+   22  cd workarea/
+   23  ls -ltr
+   24  cd docker/
+   25  ls -ltr
+   26  cd compose/
+   27  ls -ltr
+   28  cd gitlab/
+   29  ls -ltr
+   30  docker-compose up
+   31  cd ..
+   32  ls
+   33  cd ..
+   34  ls -ltr
+   35  cd ..
+   36  cd ..
+   37  ls -ltr
+   38  cd workarea/
+   39  ls -ltr
+   40  cd sligokid-dev/
+   41  ls
+   42  ll
+   43  ll
+   44  ll
+   45  ls -al
+   46  cd ..
+   47  ls -ltr
+   48  cd sligokid-github/
+   49  ls -la
+   50  pwd
+   51  cd 
+   52  cd workarea/
+   53  ls -lrt
+   54  cd projects/
+   55  ls -ltr
+   56  cd sligokid-github/
+   57  ls
+   58  cd amg-garage-doors-v2/
+   59  mvn clean install
+   60  cd ..
+   61  sh set-java-home.sh 
+   62  cd -
+   63  sh set-java-home.sh 
+   64  mvn clean install
+   65  cd =
+   66  cd -
+   67  cat set-java-home.sh 
+   68  bash set-java-home.sh 
+   69  cd -
+   70  mvn clean install
+   71  env
+   72  env | grep JAVA
+   73  ls -lr
+   74  cd ..
+   75  ls -ltr
+   76  pwd
+   77  ls
+   78  cat set-java-home.sh 
+   79  ls /Library/Java/JavaVirtualMachines
+   80  ls /Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/
+   81  ls /Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/
+   82  ls -ltr
+   83  pwd
+   84  cd ..
+   85  ls -ltr
+   86  pwd
+   87  cd ..
+   88  ls -lr
+   89  cd -
+   90  ls -ltr
+   91  cd ..
+   92  ls
+   93  cp projects/sligokid-github/set-java-home.sh .
+   94  vi set-java-home.sh 
+   95  bash --login '/Applications/Docker/Docker Quickstart Terminal.app/Contents/Resources/Scripts/start.sh'
+   96  docker ps
+   97  docker ps
+   98  docker ps
+   99  pwd
+  100  ls -ltr
+  101  cd workarea/
+  102  ls -ltr
+  103  cd docker/
+  104  ls -ltr
+  105  cd compose/
+  106  ls -ltr
+  107  cd gitlab/
+  108  ls -ltr
+  109  docker-compose up
+  110  cd ..
+  111  ls
+  112  cd ..
+  113  ls -ltr
+  114  cd ..
+  115  cd ..
+  116  ls -ltr
+  117  cd workarea/
+  118  ls -ltr
+  119  cd sligokid-dev/
+  120  ls
+  121  ll
+  122  ll
+  123  ll
+  124  ls -al
+  125  cd ..
+  126  ls -ltr
+  127  cd sligokid-github/
+  128  ls -la
+  129  pwd
+  130  cd 
+  131  cd workarea/
+  132  ls -lrt
+  133  cd projects/
+  134  ls -ltr
+  135  cd sligokid-github/
+  136  ls
+  137  cd amg-garage-doors-v2/
+  138  mvn clean install
+  139  cd ..
+  140  sh set-java-home.sh 
+  141  cd -
+  142  sh set-java-home.sh 
+  143  mvn clean install
+  144  cd =
+  145  cd -
+  146  cat set-java-home.sh 
+  147  bash set-java-home.sh 
+  148  cd -
+  149  mvn clean install
+  150  env
+  151  env | grep JAVA
+  152  ls -lr
+  153  cd ..
+  154  ls -ltr
+  155  pwd
+  156  ls
+  157  cat set-java-home.sh 
+  158  ls /Library/Java/JavaVirtualMachines
+  159  ls /Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/
+  160  ls /Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/
+  161  ls -ltr
+  162  pwd
+  163  cd ..
+  164  ls -ltr
+  165  pwd
+  166  cd ..
+  167  ls -lr
+  168  cd -
+  169  ls -ltr
+  170  cd ..
+  171  ls
+  172  cp projects/sligokid-github/set-java-home.sh .
+  173  vi set-java-home.sh 
+  174  df
+  175  ls -ltr
+  176  cd workarea/
+  177  ls 
+  178  cd maven/
+  179  ls
+  180  df
+  181  ls -ltr
+  182  top
+  183  -
+  184  bash --login '/Applications/Docker/Docker Quickstart Terminal.app/Contents/Resources/Scripts/start.sh'
+  185  docker ps
+  186  docker-machine start
+  187  docker ps
+  188  docker-machine env
+  189  docker ps
+  190  eval $(docker-machine env)
+  191  docker ps
+  192  docker images
+  193  docker-machine ps
+  194  docker-machine ls
+  195  docker-machine ps
+  196  docker images
+  197  pwd
+  198  ls -ltr
+  199  d
+  200  pwd
+  201  cd workarea/
+  202  ls
+  203  cd docker/
+  204  ls
+  205  ls -ltr
+  206  cd compose/
+  207  ls -ltr
+  208  cd gitlab/
+  209  ls -ltr
+  210  docker-compose up
+  211  docker ps
+  212  docker stop 4f
+  213  docker stop 4f
+  214  docker ps
+  215  docker stop 2c
+  216  docker stop 2c
+  217  docker ps
+  218  docker ps
+  219  docker ps
+  220  docker ps -a
+  221  docker ps
+  222  docker ps
+  223  df
+  224  ls -ltr
+  225  df
+  226  pwd
+  227  bash --login '/Applications/Docker/Docker Quickstart Terminal.app/Contents/Resources/Scripts/start.sh'
+  228  docker ps
+  229  docker images
+  230  docker-machine ip
+  231  docker images
+  232  docker images
+  233  docker-machine network
+  234  docker network
+  235  docker network ls
+  236  docker ps
+  237  docker 
+  238  docker ps
+  239  docker stop 3e
+  240  docker ps
+  241  docker ps
+  242  docker ps -a
+  243  docker ps -a -d
+  244  docker ps -a -q
+  245  docker rm $(docker ps -a -q)
+  246  docker ps -a -q
+  247  docker ps -a 
+  248  docker images
+  249  docker run 40
+  250  docker run -i 40
+  251  docker run -it 40 bash
+  252  java --version
+  253  java -version
+  254  docker run -it 40 bash
+  255  docker images
+  256  docker run -it 123 bash
+  257  docker run -it codenvy/ubuntu_jdk8 bash
+  258  docker images
+  259  docker run -it codenvy/ubuntu_jdk8 bash
+  260  docker run -it -p8080:80 codenvy/ubuntu_jdk8 bash
+  261  docker run -it -p8080:8080 codenvy/ubuntu_jdk8 bash
+  262  docker ps
+  263  docker ps -a
+  264  docker run 44e
+  265  docker restart 44e
+  266  docker ps -a
+  267  docker ps 
+  268  docker 
+  269  docker ps 
+  270  docker ps 
+  271  docker ps  -a
+  272  docker attach 44e
+  273  docker restart 44e
+  274  docker attach 44e
+  275  docker ps  -a
+  276  docker ps  
+  277  ls -ltr
+  278  pwd
+  279  cd Documents/
+  280  ls 
+  281  cd ..
+  282  ls
+  283  ls -ltr
+  284  pwd
+  285  cd workarea/
+  286  cd docker/
+  287  ls
+  288  ls -ltr
+  289  cd compose/
+  290  ls -ltr
+  291  ls -ltr
+  292  cd gitlab/
+  293  ls -ltr
+  294  vi docker-compose.yml 
+  295  ls -ltr /var/log/
+  296  head docker-compose.yml 
+  297  ls -ltr /var/lib/
+  298  less docker-compose.yml 
+  299  vi docker-compose.yml 
+  300  ls -ltr /home/
+  301  ls -ltr /home/
+  302  vi docker-compose.yml 
+  303  docker-compose up
+  304  docker-compose up
+  305  docker images
+  306  docker images
+  307  docker exec 
+  308  history | grep exec
+  309  docker-machine stop
+  310  docker-machine start
+  311  ls -ltr
+  312  df
+  313  cd /Volumes/NO\ NAME/
+  314  ls
+  315  ls -ltr Music/
+  316  cd 
+  317  docker images
+  318  docker ps
+  319  bash --login '/Applications/Docker/Docker Quickstart Terminal.app/Contents/Resources/Scripts/start.sh'
+  320  docker ps
+  321  docker attach -it 4g bash
+  322  docker attach 4g bash
+  323  docker attach 4g 
+  324  docker attach 46 
+  325  docker attach 46 bash
+  326  docker attach 46
+  327  docker ps
+  328  docker ps
+  329  docker
+  330  docker top
+  331  docker ps
+  332  docker top d66
+  333  docker ps
+  334  docker exec -it d6 bash
+  335  ls -ltr
+  336  docler ps
+  337  docker ps
+  338  docker exec -it 46 bash
+  339  docker ps
+  340  ls -ltr
+  341  docker ps
+  342  docker ps -a
+  343  docker rm $(docker ps -aq)
+  344  docker rm $(docker ps -aq)
+  345  docker ps
+  346  docker search trello
+  347  docker search wordpress
+  348  docker run -i wordpress
+  349  docker run -i -p 8080:8080 wordpress
+  350  docker run -id -p 8080:8080 wordpress
+  351  docker ps
+  352  fg
+  353  docker stop 3e
+  354  docker run -id -p 80:80 wordpress
+  355  docker ps
+  356  docker-compose search
+  357  docker ps
+  358  docker ps
+  359  docker search wordpress
+  360  docker ps
+  361  docker stop 81
+  362  docker run -id -p 80:80 julianxhokaxhiu/docker-awesome-wordpress
+  363  docker exec -it 6d bash
+  364  docker exec -it 6d bash
+  365  docker ps
+  366  docker ps
+  367  docker ps
+  368  docker ps
+  369  docker ps -a
+  370  docker rm $(docker ps -aq)
+  371  df
+  372  ls -ltr /Volumes/Kieran\ Mc\ Gowan’s\ iPod/
+  373  ls -ltr /Volumes/Kieran\ Mc\ Gowan’s\ iPod/iPod_Control/
+  374  ls -ltr /Volumes/Kieran\ Mc\ Gowan’s\ iPod/iPod_Control/Music/
+  375  ls -ltr /Volumes/Kieran\ Mc\ Gowan’s\ iPod/iPod_Control/
+  376  ls -ltr /Volumes/Kieran\ Mc\ Gowan’s\ iPod/iPod_Control/Music/F00/
+  377  df
+  378  cp -r /Volumes/Kieran\ Mc\ Gowan’s\ iPod/iPod_Control/Music /Volumes/NO\ NAME/
+  379  cp -rv /Volumes/Kieran\ Mc\ Gowan’s\ iPod/iPod_Control/Music /Volumes/NO\ NAME/
+  380  cp -rv /Volumes/Kieran\ Mc\ Gowan’s\ iPod/iPod_Control/Music/F00/* /Volumes/NO\ NAME/
+  381  cp -rv /Volumes/Kieran\ Mc\ Gowan’s\ iPod/iPod_Control/Music/*/* /Volumes/NO\ NAME/
+  382  cp -rv /Volumes/Kieran\ Mc\ Gowan’s\ iPod/iPod_Control/Music/*/*.mp3 /Volumes/NO\ NAME/
+  383  cp -rv /Volumes/Kieran\ Mc\ Gowan’s\ iPod/iPod_Control/Music/F00/*.mp3 /Volumes/NO\ NAME/
+  384  for n in 0 1 2 3 4 5 6 7 8 9; do cp -rv /Volumes/Kieran\ Mc\ Gowan’s\ iPod/iPod_Control/Music/F0$n/*.mp3 /Volumes/NO\ NAME/; done
+  385  for n in 0 1 2 3 4 5 6 7 8 9; do cp -rv /Volumes/Kieran\ Mc\ Gowan’s\ iPod/iPod_Control/Music/F1$n/*.mp3 /Volumes/NO\ NAME/; done
+  386  docker ps
+  387  bash --login '/Applications/Docker/Docker Quickstart Terminal.app/Contents/Resources/Scripts/start.sh'
+  388  docker ps
+  389  docker attach -it 4g bash
+  390  docker attach 4g bash
+  391  docker attach 4g 
+  392  docker attach 46 
+  393  docker attach 46 bash
+  394  docker attach 46
+  395  docker ps
+  396  docker ps
+  397  docker
+  398  docker top
+  399  docker ps
+  400  docker top d66
+  401  docker ps
+  402  docker exec -it d6 bash
+  403  ls -ltr
+  404  docler ps
+  405  docker ps
+  406  docker exec -it 46 bash
+  407  docker ps
+  408  ls -ltr
+  409  docker ps
+  410  docker ps -a
+  411  docker rm $(docker ps -aq)
+  412  docker rm $(docker ps -aq)
+  413  docker ps
+  414  docker search trello
+  415  docker search wordpress
+  416  docker run -i wordpress
+  417  docker run -i -p 8080:8080 wordpress
+  418  docker run -id -p 8080:8080 wordpress
+  419  docker ps
+  420  fg
+  421  docker stop 3e
+  422  docker run -id -p 80:80 wordpress
+  423  docker ps
+  424  docker-compose search
+  425  docker ps
+  426  docker ps
+  427  docker search wordpress
+  428  docker ps
+  429  docker stop 81
+  430  docker run -id -p 80:80 julianxhokaxhiu/docker-awesome-wordpress
+  431  docker exec -it 6d bash
+  432  docker exec -it 6d bash
+  433  docker ps
+  434  docker ps
+  435  docker ps
+  436  docker ps
+  437  docker ps -a
+  438  docker rm $(docker ps -aq)
+  439  df
+  440  ls -ltr /Volumes/Kieran\ Mc\ Gowan’s\ iPod/
+  441  ls -ltr /Volumes/Kieran\ Mc\ Gowan’s\ iPod/iPod_Control/
+  442  ls -ltr /Volumes/Kieran\ Mc\ Gowan’s\ iPod/iPod_Control/Music/
+  443  ls -ltr /Volumes/Kieran\ Mc\ Gowan’s\ iPod/iPod_Control/
+  444  ls -ltr /Volumes/Kieran\ Mc\ Gowan’s\ iPod/iPod_Control/Music/F00/
+  445  df
+  446  cp -r /Volumes/Kieran\ Mc\ Gowan’s\ iPod/iPod_Control/Music /Volumes/NO\ NAME/
+  447  cp -rv /Volumes/Kieran\ Mc\ Gowan’s\ iPod/iPod_Control/Music /Volumes/NO\ NAME/
+  448  cp -rv /Volumes/Kieran\ Mc\ Gowan’s\ iPod/iPod_Control/Music/F00/* /Volumes/NO\ NAME/
+  449  cp -rv /Volumes/Kieran\ Mc\ Gowan’s\ iPod/iPod_Control/Music/*/* /Volumes/NO\ NAME/
+  450  cp -rv /Volumes/Kieran\ Mc\ Gowan’s\ iPod/iPod_Control/Music/*/*.mp3 /Volumes/NO\ NAME/
+  451  cp -rv /Volumes/Kieran\ Mc\ Gowan’s\ iPod/iPod_Control/Music/F00/*.mp3 /Volumes/NO\ NAME/
+  452  for n in 0 1 2 3 4 5 6 7 8 9; do cp -rv /Volumes/Kieran\ Mc\ Gowan’s\ iPod/iPod_Control/Music/F0$n/*.mp3 /Volumes/NO\ NAME/; done
+  453  for n in 0 1 2 3 4 5 6 7 8 9; do cp -rv /Volumes/Kieran\ Mc\ Gowan’s\ iPod/iPod_Control/Music/F1$n/*.mp3 /Volumes/NO\ NAME/; done
+  454  df
+  455  ls -ltr
+  456  df
+  457  df
+  458  df
+  459  ls -lt
+  460  pwd
+  461  ls
+  462  exit
+  463  df
+  464  df
+  465  top
+  466  df
+  467  df
+  468  ls -ltr
+  469  ls -ltr
+  470  docker-machine start
+  471  ls -ltr
+  472  docker ps
+  473  docker-machine ls
+  474  docker ps -a
+  475  docke rps
+  476  docker ps -a
+  477  ls -ltr
+  478  cd workarea/
+  479  ls -ltr
+  480  cd o
+  481  cd projects/
+  482  ls -ltr
+  483  cd ..
+  484  ls -ltr
+  485  cd projects/
+  486  mkdir demo-javap
+  487  cd demo-javap/
+  488  vi StringConcatSingle.java
+  489  javac StringConcatSingle.java 
+  490  java StringConcatSingle
+  491  javap StringConcatSingle.class 
+  492  javap -c StringConcatSingle.class 
+  493  docker ps
+  494  ps -ef | grep docker
+  495  kill -9 require('http')
+  496  kill -9 r501
+  497  kill -9 501
+  498  ps -ef | grep docker
+  499  kill -9 3452
+  500  clear
+  501  docker ps -a
+  502  docker stop $(docker ps -q)
+  503  docker stop $(docker ps -q)
+  504  ls -ltr
+  505  history 
+  506  ls -ltr
+  507  cat README 
+  508  history > history.txt

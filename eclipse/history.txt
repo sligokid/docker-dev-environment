@@ -1,0 +1,500 @@
+  312  docker exec -it myserver2 wget -qO- localhost:8080
+  313  docker exec -it myserver2 wget -qO- 
+  314  docker exec -it myserver2 wget -O- localhost:8080
+  315  docker exec -it myserver2 wget -qO- localhost:8080
+  316  curl localhpst:8080
+  317  curl localhost:8080
+  318  docker stop mserver2
+  319  docker stop myserver2
+  320  docker rm myserver2
+  321  docker rm myserver
+  322  docker stop myserver
+  323  docker rm myserver
+  324  curl localhost:8080
+  325  docker stop myserver
+  326  docker rm myserver
+  327  curl localhost:8080
+  328  docker-machine ip
+  329  curl 192.168.99.100:8080
+  330  curl 192.168.99.100:8080
+  331  docker-machine ip
+  332  curl 192.168.99.100:8080
+  333  docker stop myserver
+  334  docker rm myserver
+  335  docker stop myserver
+  336  docker rm myserver
+  337  docker ps
+  338  docker exec -ti 05 sqlplus pdbadmin@ORCLPDB1 
+  339  docker ps
+  340  docker exec -ti 52 sqlplus pdbadmin@ORCLPDB1 
+  341  docker ps
+  342  docker exec -ti 8e sqlplus pdbadmin@ORCLPDB1 
+  343  docker ps
+  344  docker ps
+  345  docker exec -ti 18 sqlplus pdbadmin@ORCLPDB
+  346  docker exec -ti 18 sqlplus pdbadmin@ORCLPDB1
+  347  docker exec -ti 18 sqlplus pdbadmin@ORCLPDB1
+  348  docker exec -ti 18 sqlplus system@ORCLPDB1
+  349  docker exec 18 /u01/app/oracle/setPassword.sh
+  350  docker exec -it 18 /u01/app/oracle/setPassword.sh
+  351  docker exec -it 18 /u01/app/oracle/setPassword.sh admin
+  352  docker exec -ti 18 sqlplus pdbadmin@ORCLPDB1
+  353  docker ps
+  354  docker exec -it f1 ./setPassword.sh admin
+  355  docker exec -ti 18 sqlplus pdbadmin@XE
+  356  docker ps
+  357  docker exec -f1 18 sqlplus pdbadmin@XE
+  358  docker exec -f1 sqlplus pdbadmin@XE
+  359  docker exec f1 sqlplus pdbadmin@XE
+  360  docker exec f1 sqlplus pdbadmin@XE admin
+  361  docker exec f1 sqlplus pdbadmin@XE 
+  362  docker exec f1 sqlplus 
+  363  docker exec f1 sqlplus admin
+  364  docker exec f1 sqlplus pdbadmin@ORCLPDB1
+  365  docker exec -ti f1 sqlplus pdbadmin@ORCLPDB1
+  366  docker exec -it f1 ./setPassword.sh
+  367  docker exec -it f1 ./setPassword.sh admin admin
+  368  docker exec -ti f1 sqlplus admin@ORCLPDB1
+  369  docker exec -it f1 ./setPassword.sh admin:admin
+  370  docker exec -it f1 ./setPassword.sh admin
+  371  docker exec -it f1 bash
+  372  docker exec -it f1 ./setPassword.sh admin
+  373  docker exec -ti f1 sqlplus sysdba@ORCLPDB1
+  374  docker exec -it oracle-db ./setPassword.sh admin
+  375  docker exec -ti f1 sqlplus system/admin@ORCLPDB1
+  376  docker exec -ti oracle-db sqlplus system/admin@ORCLPDB1
+  377  docker exec -ti oracle-db sqlplus sysdba/admin@ORCLPDB1
+  378  docker exec -ti oracle-db sqlplus sysdba/admin@XE
+  379  docker exec -ti oracle-db sqlplus sysdba/ca63650ce29c0454@XE
+  380  docker exec -ti oracle-db sqlplus sysdba/ca63650ce29c0454@XE
+  381  docker exec -ti oracle-db sqlplus sys/ca63650ce29c0454@XE as sysdba
+  382  docker exec -it oracle-db ./setPassword.sh admin
+  383  docker exec -ti oracle-db sqlplus sys/admin as sysdba
+  384  docker exec -ti oracle-db sqlplus sys/admin@XE as sysdba
+  385  docker exec -ti oracle-db sqlplus sys/admin@XE as sysdba
+  386  docker exec -ti oracle-db sqlplus sys/admin@XE
+  387  docker exec -ti oracle-db sqlplus sys/admin@XE as sysdba
+  388  docker exec -ti oracle-db sqlplus sys/admin@XE as sysdba
+  389  docker exec -ti oracle-db sqlplus sys/admin@XE as sysdba
+  390  docker exec -it oracle-db ./setPassword.sh admin
+  391  docker exec -ti oracle-db sqlplus sys/admin@XE as sysdba
+  392  docker exec -ti oracle-db sqlplus sys/admin@XE as sysdba
+  393  docker exec -it oracle-db ./setPassword.sh admin
+  394  docker exec -ti oracle-db sqlplus sys/admin@XE as sysdba
+  395  docker exec -ti oracle-db sqlplus sys/admin@XE as sysdba
+  396  docker-machine ip
+  397  docker exec -ti oracle-db sqlplus sys/admin@XE as sysdba
+  398  docker exec -ti oracle-db sqlplus sys/admin@XE as sysdba
+  399  docker exec -ti oracle-db sqlplus sys/admin@XE as sysdba
+  400  ls -ltr
+  401  bash --login '/Applications/Docker/Docker Quickstart Terminal.app/Contents/Resources/Scripts/start.sh'
+  402  docker exec -it myserver2 wget -q0 localhost:8080
+  403  docker exec -it myserver2 wget -q0- localhost:8080
+  404  docker exec -it myserver2 wget localhost:8080
+  405  docker exec -it myserver2 wget -qO- localhost:8080
+  406  man wget
+  407  docker exec -it myserver2 wget -qO- localhost:8080
+  408  docker exec -it myserver2 man wget
+  409  docker exec -it myserver2 "man wget"
+  410  docker exec -it myserver2 wget -qO- localhost:8080
+  411  docker exec -it myserver2 wget -qO- 
+  412  docker exec -it myserver2 wget -O- localhost:8080
+  413  docker exec -it myserver2 wget -qO- localhost:8080
+  414  curl localhpst:8080
+  415  curl localhost:8080
+  416  docker stop mserver2
+  417  docker stop myserver2
+  418  docker rm myserver2
+  419  docker rm myserver
+  420  docker stop myserver
+  421  docker rm myserver
+  422  curl localhost:8080
+  423  docker stop myserver
+  424  docker rm myserver
+  425  curl localhost:8080
+  426  docker-machine ip
+  427  curl 192.168.99.100:8080
+  428  curl 192.168.99.100:8080
+  429  docker-machine ip
+  430  curl 192.168.99.100:8080
+  431  docker stop myserver
+  432  docker rm myserver
+  433  docker stop myserver
+  434  docker rm myserver
+  435  docker ps
+  436  docker exec -ti 05 sqlplus pdbadmin@ORCLPDB1 
+  437  docker ps
+  438  docker exec -ti 52 sqlplus pdbadmin@ORCLPDB1 
+  439  docker ps
+  440  docker exec -ti 8e sqlplus pdbadmin@ORCLPDB1 
+  441  docker ps
+  442  docker ps
+  443  docker exec -ti 18 sqlplus pdbadmin@ORCLPDB
+  444  docker exec -ti 18 sqlplus pdbadmin@ORCLPDB1
+  445  docker exec -ti 18 sqlplus pdbadmin@ORCLPDB1
+  446  docker exec -ti 18 sqlplus system@ORCLPDB1
+  447  docker exec 18 /u01/app/oracle/setPassword.sh
+  448  docker exec -it 18 /u01/app/oracle/setPassword.sh
+  449  docker exec -it 18 /u01/app/oracle/setPassword.sh admin
+  450  docker exec -ti 18 sqlplus pdbadmin@ORCLPDB1
+  451  docker ps
+  452  docker exec -it f1 ./setPassword.sh admin
+  453  docker exec -ti 18 sqlplus pdbadmin@XE
+  454  docker ps
+  455  docker exec -f1 18 sqlplus pdbadmin@XE
+  456  docker exec -f1 sqlplus pdbadmin@XE
+  457  docker exec f1 sqlplus pdbadmin@XE
+  458  docker exec f1 sqlplus pdbadmin@XE admin
+  459  docker exec f1 sqlplus pdbadmin@XE 
+  460  docker exec f1 sqlplus 
+  461  docker exec f1 sqlplus admin
+  462  docker exec f1 sqlplus pdbadmin@ORCLPDB1
+  463  docker exec -ti f1 sqlplus pdbadmin@ORCLPDB1
+  464  docker exec -it f1 ./setPassword.sh
+  465  docker exec -it f1 ./setPassword.sh admin admin
+  466  docker exec -ti f1 sqlplus admin@ORCLPDB1
+  467  docker exec -it f1 ./setPassword.sh admin:admin
+  468  docker exec -it f1 ./setPassword.sh admin
+  469  docker exec -it f1 bash
+  470  docker exec -it f1 ./setPassword.sh admin
+  471  docker exec -ti f1 sqlplus sysdba@ORCLPDB1
+  472  docker exec -it oracle-db ./setPassword.sh admin
+  473  docker exec -ti f1 sqlplus system/admin@ORCLPDB1
+  474  docker exec -ti oracle-db sqlplus system/admin@ORCLPDB1
+  475  docker exec -ti oracle-db sqlplus sysdba/admin@ORCLPDB1
+  476  docker exec -ti oracle-db sqlplus sysdba/admin@XE
+  477  docker exec -ti oracle-db sqlplus sysdba/ca63650ce29c0454@XE
+  478  docker exec -ti oracle-db sqlplus sysdba/ca63650ce29c0454@XE
+  479  docker exec -ti oracle-db sqlplus sys/ca63650ce29c0454@XE as sysdba
+  480  docker exec -it oracle-db ./setPassword.sh admin
+  481  docker exec -ti oracle-db sqlplus sys/admin as sysdba
+  482  docker exec -ti oracle-db sqlplus sys/admin@XE as sysdba
+  483  docker exec -ti oracle-db sqlplus sys/admin@XE as sysdba
+  484  docker exec -ti oracle-db sqlplus sys/admin@XE
+  485  docker exec -ti oracle-db sqlplus sys/admin@XE as sysdba
+  486  docker exec -ti oracle-db sqlplus sys/admin@XE as sysdba
+  487  docker exec -ti oracle-db sqlplus sys/admin@XE as sysdba
+  488  docker exec -it oracle-db ./setPassword.sh admin
+  489  docker exec -ti oracle-db sqlplus sys/admin@XE as sysdba
+  490  docker exec -ti oracle-db sqlplus sys/admin@XE as sysdba
+  491  docker exec -it oracle-db ./setPassword.sh admin
+  492  docker exec -ti oracle-db sqlplus sys/admin@XE as sysdba
+  493  docker exec -ti oracle-db sqlplus sys/admin@XE as sysdba
+  494  docker-machine ip
+  495  docker exec -ti oracle-db sqlplus sys/admin@XE as sysdba
+  496  docker exec -ti oracle-db sqlplus sys/admin@XE as sysdba
+  497  docker exec -ti oracle-db sqlplus sys/admin@XE as sysdba
+  498  ls -ltr
+  499  ls -ltr
+  500  cd workarea/;
+  501  ls -ltr
+  502  cd docker/
+  503  ls -ltr
+  504  cat DB\: 
+  505  ls -ltr
+  506  ls
+  507  ll
+  508  ls -la
+  509  mkdir jdk-7
+  510  cd jdk-7/
+  511  docker search jdk7
+  512  docker run codenvy/jdk7
+  513  docker sp
+  514  docker ps
+  515  docker ps -a
+  516  docker run -it codenvy/jdk7 java --version 
+  517  docker run -it codenvy/jdk7 java -version 
+  518  java -version
+  519  docker run -it codenvy/jdk7 bash
+  520  docker exec -it codenvy/jdk7 bash
+  521  docker exec
+  522  docker exec --help
+  523  docker ps
+  524  docker run -it codenvy/jdk7 java -version 
+  525  docker run -it codenvy/jdk6 java -version 
+  526  docker search jdk6
+  527  docker search jdk6 | grep code
+  528  docker p
+  529  docker ps -a
+  530  docker images
+  531  docker run -it dingmingk/java-jdk6-oracle java -version 
+  532  docker run -it dingmingk/java-jdk6-oracle java -version 
+  533  docker run -it codenvy/jdk7 java -version 
+  534  docker search jdk8
+  535  docker run -it ascdc/jdk8  java -version 
+  536  docker run -it ascdc/jdk8  java -version 
+  537  docker search jdk8
+  538  docker run -it codenvy/jdk8_maven3_tomcat8  java -version 
+  539  docker run -itd codenvy/jdk8_maven3_tomcat8  java -version 
+  540  docker ps
+  541  docker run -itd codenvy/jdk8_maven3_tomcat8 
+  542  docker ps
+  543  docker ps
+  544  docker stop fa
+  545  docker stop 7a
+  546  docker run --name jdk-7 -itd codenvy/jdk8_maven3_tomcat8 
+  547  docker ps
+  548  docker stop cb
+  549  docker rm jdk-7
+  550  docker run --name jdk-8 -itd codenvy/jdk8_maven3_tomcat8 
+  551  docker run --name jdk-7 -itd codenvy/jdk7
+  552  docker ps
+  553  docker run --name jdk-7 -itd codenvy/jdk7
+  554  docker ps
+  555  docker rm jdk-7
+  556  docker run --name jdk-7 -itd codenvy/jdk7
+  557  docker ps
+  558  docker loks
+  559  docker logs
+  560  docker logs jdk-7
+  561  docker logs 
+  562  docker ps -a
+  563  docker logs fb
+  564  docker run -itd codenvy/jdk7
+  565  docker ps -a
+  566  docker ps 
+  567  docker run -it codenvy/jdk7
+  568  docker ps 
+  569  docker run -it codenvy/jdk7 java --version
+  570  docker run -it codenvy/jdk7 java -version
+  571  docker run -it codenvy/jdk7 bash
+  572  docker run -itd codenvy/jdk7 bash
+  573  ls -ltr
+  574  docker ps
+  575  docker stop 09
+  576  docker rm 09
+  577  docker run --name jdk-7 -itd codenvy/jdk7 bash
+  578  docker rm jdk-7
+  579  docker run --name jdk-7 -itd codenvy/jdk7 bash
+  580  docker ps
+  581  history | grep run
+  582  ls -ltr
+  583  ps
+  584  docker ps
+  585  docker ps
+  586  ls -ltr
+  587  pwd
+  588  history | grep jdk-7
+  589  history | grep jdk-7 > README.md
+  590  mkdir ../jdk-8
+  591  history | grep jdk-8 >../jdk-8/README.md
+  592  ls -ltr
+  593  vi README.md 
+  594  ls -ltr
+  595  docker ps
+  596  docker exec 3b java -version
+  597  docker exec c4 java -version
+  598  ls -ltr
+  599  ls -ltr
+  600  docker ps
+  601  cd ..
+  602  ls -ltr
+  603  cd jdk-8/
+  604  ls -ltr
+  605  vi README.md 
+  606  ls -ltr
+  607  cat README.md 
+  608  cd ..
+  609  ls -ltr
+  610  ls -ltr
+  611  mkdir compose
+  612  cd compose/
+  613  mkdir docker-dev-environet
+  614  ls -ltr
+  615  mv docker-dev-environet ..
+  616  cd ..
+  617  ls -ltr
+  618  mv compose docker-dev-environet/
+  619  mv docker-dev-environet docker-dev-environment/
+  620  ls -ltr
+  621  mv web-* docker-dev-environment/
+  622  mv db-*
+  623  ls
+  624  ls -ltr
+  625  mv jdk-* docker-dev-environment/
+  626  ls
+  627  ls -ltr
+  628  ls docker-dev-environment/
+  629  mv db-sqlserver docker-dev-environment/
+  630  ls -ltr
+  631  ls demo/
+  632  ll
+  633  ls -ltr
+  634  cd docker-dev-environment/
+  635  ls -ltr
+  636  ls -ltr
+  637  cd db-sqlserver/
+  638  ls -ltr
+  639  ls -ltr
+  640  pwd
+  641  mv db-db2 ..
+  642  mv db-oracle ..
+  643  ls -ltr
+  644  cd ..
+  645  ls
+  646  ll -la
+  647  ls -la
+  648  cd compose/
+  649  ls
+  650  cd gitlab/
+  651  ls -ltr
+  652  vi docker-compose.yml 
+  653  ls -ltr
+  654  pwd
+  655  ls -ltr
+  656  ls -ltr
+  657  docker-compose up
+  658  docker-compose up -d
+  659  docker ps
+  660  docker-compose down
+  661  docker ps
+  662  cd ..
+  663  ls -ltr
+  664  cd ..
+  665  ls -ltr
+  666  cd 0
+  667  cd -
+  668  ls -ltr
+  669  cd gitlab
+  670  ls -ltr
+  671  cd ..
+  672  ls -ltr
+  673  ls -ltr
+  674  cd ..
+  675  ls -ltr
+  676  ls -la
+  677  pwd
+  678  pwd
+  679  ls
+  680  ls -ltr
+  681  ls -la
+  682  mkdir eclipse
+  683  cd eclipse/
+  684  git clone https://github.com/spring-petclinic/spring-framework-petclinic
+  685  ls -ltr
+  686  cd spring-framework-petclinic/
+  687  ls -lt
+  688  ./mvnw clean install
+  689  ./mvnw tomcat7:run-war -P MySQL
+  690  docker run --name mysql-petclinic -e MYSQL_ROOT_PASSWORD=petclinic -e MYSQL_DATABASE=petclinic -p 3306:3306 mysql:5.7.8
+  691  docker run --name mysql-petclinic -d -e MYSQL_ROOT_PASSWORD=petclinic -e MYSQL_DATABASE=petclinic -p 3306:3306 mysql:5.7.8
+  692  docker rm mysql-petclinic
+  693  docker run --name mysql-petclinic -d -e MYSQL_ROOT_PASSWORD=petclinic -e MYSQL_DATABASE=petclinic -p 3306:3306 mysql:5.7.8
+  694  docker logs mysql-petclinic
+  695  ./mvnw tomcat7:run-war -P MySQL
+  696  vi pom.xml 
+  697  ./mvnw tomcat7:run-war -P MySQL
+  698  ./mvnw tomcat7:run-war -P MySQL -DskipTests=true
+  699  ls -ltr
+  700  ls -ltr target/
+  701  ls -ltr target/tomcat/
+  702  docker run --rm -p 8080:8080 -v //./target/mywebapp:/usr/local/tomcat/webapps/mywebapp tomcat:6.0
+  703  docker run --rm -p 8080:8080 -v //./target/mywebapp:/usr/local/tomcat/webapps/mywebapp tomcat:7.0
+  704  ls -ltr
+  705  docker run --rm -p 8080:8080 -v target/tomcat/webapps/:/usr/local/tomcat/webapps/petclinic tomcat:7.0
+  706  docker run --rm -p 8080:8080 -v $(pwd)/target/tomcat/webapps/:/usr/local/tomcat/webapps/mywebapp tomcat:7.0
+  707  ls -ltr
+  708  docker run --rm -p 8080:8080 -v $(pwd)/target/tomcat/webapps:/usr/local/tomcat/webapps/petclinic tomcat:7.0
+  709  mvn clean install
+  710  pwd
+  711  ./mvnw clean insta
+  712  ./mvnw clean instal
+  713  ./mvnw clean install
+  714  ls -ltr
+  715  ls -tlr target/
+  716  ls -tlr target/petclinic
+  717  ls -ltr
+  718  cd target/
+  719  ls -ltr
+  720  tar -tf petclinic.war 
+  721  cd ..
+  722  ls -ltr
+  723  cd ..
+  724  ls -ltr
+  725  cd -
+  726  ls -ltr
+  727  cd target/
+  728  ls -ltr
+  729  cd ..
+  730  ls -ltr
+  731  docker run --rm -p 8080:8080 -v $(pwd)/target/petclinic:/usr/local/tomcat/webapps/petclinic tomcat:7.0
+  732  ls -ltr
+  733  pwd
+  734  echo "docker run --rm -p 8080:8080 -v $(pwd)/target/petclinic:/usr/local/tomcat/webapps/petclinic tomcat:7.0" > README.md
+  735  ls -ltr
+  736  vi readme.md 
+  737  mv readme.md README.md
+  738  ls -ltr
+  739  ls -ltr
+  740  cd ..
+  741  ls -ltr
+  742  cd ..
+  743  ls -ltr
+  744  ls
+  745  ls -la
+  746  cd eclipse/
+  747  ls -ltr
+  748  cd spring-framework-petclinic/
+  749  ls -ltr
+  750  docker run --rm -p 8080:8080 -v $(pwd)/target/petclinic:/usr/local/tomcat/webapps/petclinic tomcat:7.0
+  751  history | grep run
+  752  vi README.md 
+  753  ls -ltr
+  754  ls -ltr
+  755  pwd
+  756  ls -ltr ../../
+  757  ls -ltr ../../../
+  758  ls -ltr ../../
+  759  ls -ltr ../../eclipse/
+  760  ls -ltr
+  761  docker run --rm -p 8080:8080 -v $(pwd)/target/petclinic:/usr/local/tomcat/webapps/petclinic tomcat:7.0
+  762  docker run --rm -p 8080:8080 -v $(pwd)/target/petclinic:/usr/local/tomcat/webapps/petclinic tomcat:7.0
+  763  ./mvnw clean install
+  764  docker run --rm -p 8080:8080 -v $(pwd)/target/petclinic:/usr/local/tomcat/webapps/petclinic tomcat:7.0
+  765  sl -ltr
+  766  ls -ltr
+  767  ./mvnw clean
+  768  ls -ltr
+  769  cd ..
+  770  ls -ltr
+  771  cd ..
+  772  ls
+  773  ls -la
+  774  ls -ltr eclipse/
+  775  ls -ltr .metadata/
+  776  ls -ltr .metadata/version.ini 
+  777  cat .metadata/version.ini 
+  778  ls -ltr
+  779  ls -ltr
+  780  ls -ltra
+  781  ls -ltr
+  782  cd ..
+  783  ls -ltr
+  784  cd docker-dev-environment/
+  785  ls -ltr
+  786  ls
+  787  ls -la
+  788  rm .metadata/
+  789  rm -rf .metadata/
+  790  ls -ltr
+  791  ls -la
+  792  cd ..
+  793  cd -
+  794  cd compose/
+  795  ls -ltr
+  796  cd gitlab/
+  797  ls -ltr
+  798  cat README.md 
+  799  cd ..
+  800  cd ..
+  801  ls -ltr
+  802  ls
+  803  ls -a
+  804  ls -al
+  805  cd eclipse/
+  806  ls -ltr
+  807  cd spring-framework-petclinic/
+  808  ls -ltr
+  809  cd ..
+  810  ls -ltr
+  811  history > history.txt

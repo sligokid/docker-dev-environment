@@ -1,0 +1,61 @@
+Kierans-MBP:db-oracle kieran$ docker login
+Login to Docker Hub
+  Username: sligokid
+  Password: m**1 
+
+Start docker
+  docker-machine start
+  docker-machine ip
+  docker info
+
+Show images present
+  docker images
+
+Show no containers running
+  docker ps
+
+There are no publicly available images for Oracle, so instead we need to build one.
+
+Clone Oracle public docker-image repos
+  git clone https://github.com/oracle/docker-images/
+  cd OracleDatabase/
+  cd dockerfiles/11.2.0.2/
+
+Download Oracle Express edition binary (You need an Oracle account for this) 
+  cp /Users/kieran/Downloads/oracle-xe-11.2.0-1.0.x86_64.rpm.zip .
+
+Build a docker image from the binary using the supplied build script
+  ./buildDockerImage.sh -v 11.2.0.2 -x
+
+Install the image in the local repos, Create an oracel-db container from this image, exposing the ports necessary.
+  #docker run -d --name db-oracle --shm-size=1g -p 1521:1521 -p 8080:8080 oracle/database:11.2.0.2-xe 
+  docker run --name db-oracle --shm-size=1g -d -p 1521:1521 -p 8080:8080 oracle/database:11.2.0.2-xe 
+
+Tail the logs to ensure successful startup 
+  docker logs db-oracle
+
+Show the new image is installed in the repository
+  docker images
+
+Show the running container
+  docker ps
+
+Reset the account password using the supplied script 
+  docker exec -it db-oracle ./setPassword.sh admin
+
+Login to the DB server and show the version
+  docker exec -ti db-oracle sqlplus sys/admin@XE as sysdba
+
+Show the version
+SQL> SELECT * FROM v$version;
+
+===== - ========
+Stop the container
+  297  docker stop oracle-db
+
+Cleanup
+  docker stop $(docker ps -a -q)
+  docker rm $(docker ps -a -q)
+
+https://medium.com/@gvenzl/creating-an-oracle-database-docker-image-f3cea1ea21bb
+https://github.com/oracle/docker-images/tree/master/OracleDatabase

@@ -1,0 +1,30 @@
+Download and install the SQL Server image in the local repos, Create an db-sql-server container from this image, exposing the ports necessary.
+  #docker run --name db-sqlserver --shm-size=4g -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=SQLadmin21' -p 1433:1433 -d microsoft/mssql-server-linux:2017-CU2
+  docker run --name db-sqlserver -d -p 1433:1433 -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=SQLadmin21' microsoft/mssql-server-linux:2017-CU2
+
+Tail the logs to ensure successful startup 
+  docker logs db-sqlserver 
+
+Show the new image is installed in the repository
+  docker images
+
+Show the running container
+  docker ps
+
+Login to the DB server and show the version
+  docker exec -it db-sqlserver /opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P SQLadmin21
+
+Show the version
+1> SELECT @@VERSION
+2> GO
+
+===== - ========
+Stop the container
+  297  docker stop db-sqlserver 
+
+Cleanup
+  269  docker rm $(docker ps -a -q)
+
+
+https://hub.docker.com/r/microsoft/mssql-server-linux/
+

@@ -1,0 +1,7 @@
+Dowload the Tomcat 7 image, install it and run an instance of the image as a container. 
+   #docker run --name web-tomcat7 -d -it --rm -p 8888:8080 tomcat:7.0
+   docker run --name web-tomcat7 -d -p 8888:8080 tomcat:7.0
+
+http://192.168.99.100:8888/
+
+https://hub.docker.com/_/tomcat/
